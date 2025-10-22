@@ -1,0 +1,34 @@
+
+.profile-page {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .profile-picture-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ccc;
+  }
+  
+  .profile-picture-container:hover .profile-picture {
+    border-color: #007BFF;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  /* p {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+  } */
+  

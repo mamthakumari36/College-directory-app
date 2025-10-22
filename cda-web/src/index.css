@@ -1,0 +1,57 @@
+.containers {
+  border: 1px solid grey;
+  border-radius: 15px;
+  padding: 20px 0px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.log-con {
+  /* color: rgb(0, 128, 100); */
+  width: 400px;
+}
+
+.fontColor {
+  color: rgb(27, 207, 168);
+  font-weight: bolder;
+}
+
+.boxmodel-con {
+  padding: 15px 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 30px;
+}
+
+.para {
+  width: 100%;
+}
+
+.cards {
+  box-shadow: 2px 2px 8px cyan;
+  color: white;
+}
+
+body {
+  background: rgb(66, 4, 58);
+}
+
+.scroll {
+  overflow-y: scroll;
+}
+
+.dept-con {
+  display: flex;
+  gap: 150px;
+}
+
+.depts {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
